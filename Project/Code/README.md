@@ -9,7 +9,7 @@ Employee Management System CRUD project using Spring Boot,Spring JDBC, Thymeleaf
 •      
 
            username : admin
-           password : admin123
+           password : admin
 
 •
 
