@@ -1,0 +1,29 @@
+// Using the createCollection command
+db.createCollection("customers");
+
+// Inserting a document to create a collection implicitly
+db.customers.insertOne({ name: "John Doe", email: "john@example.com" });
+
+// Update a single document
+db.customers.updateOne(
+  { name: "John Doe" },
+  { $set: { email: "newemail@example.com" } }
+);
+
+// Adding a field to a document
+db.customers.updateOne(
+  { name: "John Doe" },
+  { $set: { age: 30 } }
+);
+
+
+// Removing a field from a document
+db.customers.updateOne(
+  { name: "John Doe" },
+  { $unset: { email: "" } }
+);
+
+// Delete a single document
+db.customers.deleteOne({ name: "John Doe" });
+
+db.customers.drop();
