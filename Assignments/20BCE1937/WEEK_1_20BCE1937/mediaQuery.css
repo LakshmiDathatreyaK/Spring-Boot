@@ -1,0 +1,26 @@
+@media screen and (max-width : 700px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+        height: 250vw;
+    }
+
+    .info{
+        border: 0px solid;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 0px;
+    }
+
+    .details{
+        border: 0px solid;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;    
+    }
+
+    
+
+}

@@ -1,0 +1,29 @@
+*{
+    margin: 0; padding: 0;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+.half{
+    width: 45%;
+}
+.share{
+    display: flex;
+    justify-content: space-between;
+}
+.pading {
+    padding: 10px; 
+    margin: 5px;
+    background-color: rgb(78, 38, 226);
+}
+.pading1 {
+    padding: 10px; 
+    margin: 5px;
+}
+input {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: whitesmoke;
+}
